@@ -42,7 +42,6 @@ li {
 .content {
   display: flex;
   max-width: 1000px;
-
   margin: 0 auto;
   justify-content: space-between;
 
@@ -113,6 +112,38 @@ button:hover {
 
   width: 250px;
   height: 250px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.about > h1 {
+  font-size: 70px;
+  color:#9d3cff;
+}
+
+
+.about > .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    max-width: 80%;
+}
+
+
+.about >.content > img {
+  width: 400px;
+  height: 500px;
+}
+
+.about >.content > p {
+  font-size: 45px;
+  color: #9d3cff;
 }
 
 .testimonial {
