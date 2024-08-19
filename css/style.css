@@ -190,12 +190,14 @@ button:hover {
   padding: 50px;
   border-radius: 10px;
   justify-content: space-evenly;
+  align-items: center;
 }
+
 .box h2 {
   color: white;
 }
 .box button {
-  border-color: white;
+  border-color: rgb(129, 29, 196);
   background-color: #9d3cff;
   border-radius: 10px;
   padding: 10px;
