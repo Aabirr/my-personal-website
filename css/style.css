@@ -62,12 +62,12 @@ li {
   max-width: 70%;
   padding: 20px;
 }
-.right > img {
-  width: 200px;
-  height: 300px;
-  border-radius: 15px;
-}
+
 .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   padding-right: 20px;
 }
 .left > h3,
@@ -76,7 +76,7 @@ p {
 }
 
 .left h3 {
-  font-size: 40px;
+  font-size: 55px;
   color: #9d3cff;
   margin-bottom: -15px;
 }
@@ -85,9 +85,11 @@ p {
 }
 .btn {
   background-color: #9d3cff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
+  border-color: rgb(129, 29, 196);
   font-weight: 600;
+  font-size: 20px;
   color: aliceblue;
 }
 button:hover {
@@ -95,6 +97,8 @@ button:hover {
 }
 .service {
   background-color: #0f001e;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 .service h1 {
   display: flex;
@@ -150,27 +154,40 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
+  background-color: #161018;
   color: #fff;
   margin-bottom: 10px;
-}
-
-.content > img {
-  width: 400px;
-  height: 500px;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .about > h1 {
   font-size: 55px;
 }
-.content > p {
-  font-size: 45px;
+.about-content {
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+  gap: 100px;
 }
-
+.about-content > img {
+  border: #1f2937;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+.about-content > p {
+  font-size: 20px;
+  letter-spacing: 0.03rem;
+  line-height: 2.5rem;
+}
 .testimonial {
   display: flex;
   flex-direction: column;
+  align-self: center;
   background-color: #0f001e;
+  max-width: 1100px;
   margin-top: 50px;
   padding: 80px;
 }
