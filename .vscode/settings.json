@@ -1,3 +1,8 @@
 {
-  "liveServer.settings.port": 5501
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "liveServer.settings.port": 5501,
+  "CodeGPT.apiKey": "Ollama"
 }

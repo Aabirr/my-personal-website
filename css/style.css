@@ -236,6 +236,19 @@ button:hover {
   font-weight: 800;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+}
+
+.contact > label,
+h2,
+input {
+  color: #fff;
+}
+
 .footer {
   display: flex;
   justify-content: center;

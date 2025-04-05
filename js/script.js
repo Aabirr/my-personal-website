@@ -35,3 +35,8 @@ function multiply(a, b) {
 }
 
 console.log(multiply(a, b));
+
+function nothing(c, d) {
+  return 10 + 10;
+}
+console.log(nothing(c, d)); // undefined
