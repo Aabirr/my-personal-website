@@ -239,14 +239,59 @@ button:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 100px;
   align-items: center;
+  justify-content: center;
+  padding: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #9d3cff;
+  background: rgba(14, 10, 19, 0.98);
+  color: white;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #9d3cff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #7d2cdf;
 }
 
 .contact > label,
-h2,
-input {
+h2 {
   color: #fff;
+  margin-bottom: 8px;
+  display: block;
 }
 
 .footer {
@@ -255,4 +300,15 @@ input {
   align-items: center;
   background-color: #000000;
   height: 80px;
+}
+
+.submit-btn:hover {
+  background-color: #7d2cdf !important;
+}
+
+.contact,
+.contact input,
+.contact textarea,
+.contact button {
+  box-sizing: border-box;
 }

@@ -87,13 +87,17 @@
     <section class="contact-form">
       <h2>Get In Touch</h2>
 
-      <form class="contact">
-        <label for="name">Your name</label><br />
-        <input type="text" id="name" name="name" /><br />
-        <label for="message">Your message</label><br />
-        <textarea id="message" name="message" rows="6" cols="50"></textarea>
-        <br />
-        <input type="submit" value="submit" />
+      <form class="contact" netlify>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="Email">Your Email</label>
+        <input type="email" id="Email" name="email" />
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+
+        <button type="submit" class="submit-button">Send</button>
       </form>
     </section>
 
