@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
+    <script src="js/theme-switcher.js" defer></script>
     <title>AabirKashif</title>
   </head>
   <body>
@@ -14,11 +14,27 @@
           <a href="#"
             ><img class="logo" src="img/logo.webp" alt="aabir logo"
           /></a>
+          <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            </svg>
+          </button>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+        </div>
+
+        <div class="theme-switch">
+          <button>Switch Theme</button>
         </div>
       </nav>
 
